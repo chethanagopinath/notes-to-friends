@@ -2,10 +2,22 @@ body {
   font-family: Lato;
 }
 
-.main-div{
-  justifyContent: 'space-between'
-}
-
 ::placeholder{
   font-family: Lato;
+}
+
+
+#email-link{
+  background-color: #9b59b6;
+  border-radius: 4px;
+  border-width: 1px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  margin:10px 0px;
+}
+
+#email-link:hover{
+  background-color: #b87dcf;
+  cursor: pointer;
 }

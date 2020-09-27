@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 
+
 export default function App() {
   return (
     <div classname = "main-div">
@@ -8,9 +9,10 @@ export default function App() {
       <form>
       <textarea placeholder = "Feel free to add links to cute dog videos too.."></textarea>
       <ul></ul>
+      <input type = "text" placeholder = "Your friend's name" /> {""}
       <input type = "text" placeholder = "Your friend's email id" />
       <ul></ul>
-      <input type = "submit" value = "Send email"/>
+      <a id="email-link" href = "mailto:cgopina1@binghamton.edu?subject=Hey! How are you?"> Send email </a>
       </form>
     </div>
   );
